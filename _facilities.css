@@ -1,0 +1,65 @@
+/* ===================================
+   FACILITIES SECTION
+   Facility cards with services
+   =================================== */
+
+.facilities {
+    padding: 80px 0;
+    background: var(--sand);
+}
+
+.facilities h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: var(--primary-blue);
+}
+
+.facility-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.facility-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.facility-card:hover {
+    transform: translateY(-5px);
+}
+
+.facility-icon {
+    width: 80px;
+    height: 80px;
+    background: var(--gradient-ocean);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.facility-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary-blue);
+}
+
+.facility-card ul {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.facility-card li {
+    margin-bottom: 0.5rem;
+    color: #666;
+}
