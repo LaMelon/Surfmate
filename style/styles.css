@@ -1,0 +1,50 @@
+/* ===================================
+   MODULAR CSS ARCHITECTURE
+   Main aggregator file - imports all partials
+   
+   File structure:
+   style/
+   ├── styles.css (this file)
+   └── partials/
+       ├── _variables.css
+       ├── _reset.css
+       ├── _navigation.css
+       ├── _hero.css
+       ├── _wave-monitoring.css
+       ├── _surfing.css
+       ├── _facilities.css
+       ├── _gallery.css
+       ├── _safety.css
+       ├── _conservation.css
+       ├── _message.css
+       ├── _footer.css
+       ├── _buttons.css
+       ├── _animations.css
+       └── _responsive.css
+   
+   =================================== */
+
+/* 1. Variables & Color Palette */
+@import 'partials/_variables.css';
+
+/* 2. Reset & Base Styles */
+@import 'partials/_reset.css';
+
+/* 3. Layout & Components */
+@import 'partials/_navigation.css';
+@import 'partials/_hero.css';
+@import 'partials/_wave-monitoring.css';
+@import 'partials/_surfing.css';
+@import 'partials/_facilities.css';
+@import 'partials/_gallery.css';
+@import 'partials/_safety.css';
+@import 'partials/_conservation.css';
+@import 'partials/_message.css';
+@import 'partials/_footer.css';
+
+/* 4. Utility Styles */
+@import 'partials/_buttons.css';
+@import 'partials/_animations.css';
+
+/* 5. Responsive Design */
+@import 'partials/_responsive.css';

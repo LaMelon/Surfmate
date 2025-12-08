@@ -1,0 +1,25 @@
+{
+  "facilities": [
+    {
+      "id": 1,
+      "name": "Pantai Wediombo",
+      "description": "Pantai berpasir putih dengan ombak yang cocok untuk surfing",
+      "location": "Gunungkidul, Yogyakarta",
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Kamar Bilas",
+      "description": "Fasilitas kamar mandi dan bilas untuk pengunjung",
+      "location": "Pantai Wediombo",
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "name": "Area Parkir",
+      "description": "Area parkir luas dengan keamanan 24 jam",
+      "location": "Pantai Wediombo",
+      "rating": 4.6
+    }
+  ]
+}
